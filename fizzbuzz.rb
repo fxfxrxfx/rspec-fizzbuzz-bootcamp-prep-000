@@ -2,6 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   return (if num == nil then
+            nil
           elsif num % 3 == 0 then
             if num % 5 == 0 then
               "FizzBuzz"
